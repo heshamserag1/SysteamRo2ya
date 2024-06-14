@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موظفين رؤيه</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+     <!--google-font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+     <!--google-font-->
+</head>
+<body>
+
+
+ <!--navbar-desktop-->
+
+ <div class="get-nabvbar cairo-uniquifier fixed-top ">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+      <ul class="mb-2"> 
+  <li class="nav-item dropdown text-white-50 ">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="text-white-50"><i class="fa-solid fa-bars-staggered"></i></span>
+    </a>
+    <ul class="dropdown-menu  text-uppercase mt-3 mb-3" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="Home.html">الصفحة الرئسية</a></li>
+                <li><a class="dropdown-item" href="Home.html#viod" id="ratecoustmer">اراء العملاء</a></li>
+                <li><a class="dropdown-item" href="Home.html#motrhat" id="problem" >المقترحات والشكاوي</a></li>
+                <li><a class="dropdown-item" href="page.html">رفع التقرير اليومية</a></li>
+                <li><a class="dropdown-item" href="page2.html"> وقت العمل</a></li>
+                <li><a class="dropdown-item" href="work.html">من يعمل الان</a></li>
+                <li><a class="dropdown-item" href="team.html">فريق العمل</a></li>
+    </ul>
+  </li>
+</ul>
+          <!-- <a class="navbar-brand text-white-50" href="#"><span><i class="fa-solid fa-bars-staggered"></i></span><img src="imgs/Logo-.png" class="img-fluid alt=" ></a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white-50">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+              <div class="icons-navbar">
+                <a href="#" class="text-white-50"><i class="fa-solid fa-user"></i></a>
+                <a href="#" class="text-white-50"><i class="fa-solid fa-globe"></i></a>
+                <a href="#" class="text-white-50" onclick="darkModes()"><i class="fa-solid fa-moon"></i></a>
+                <a href="#" class="text-white-50"><i class="fa-solid fa-message"></i></a>
+              </div>
+              <div class="search text-center" dir="rtl">
+                <input type="search" placeholder="بحث"  >
+              </div>
+            </ul>
+            <div class="logo-nav-desktop">
+              <img src="imgs/Logo-.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </nav>
+
+</div>
+</div>
+
+  <!--navbar-desktop-->
+
+ <!-- navbar-mopile-->
+    
+
+ <div class="get-nabvbar-mopile fixed-top cairo-uniquifier ">
+  <a class="open" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="text-white-50"><i class=" text-white-50 fa-solid fa-bars-staggered"></i></span></a>
+  <div class="offcanvas offcanvas-end" tapindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h6 class="text-black-50 text-center">رؤية للبرمجيات</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="icons-navbar-mopile text-center">
+        <a href="#" class="text-white-50"><i class="fa-solid fa-user"></i></a>
+        <a href="#" class="text-white-50"><i class="fa-solid fa-globe"></i></a>
+        <a href="#" class="text-white-50" onclick="darkModes()"><i class="fa-solid fa-moon"></i></a>
+        <a href="#" class="text-white-50"><i class="fa-solid fa-message"></i></a>
+      </div>
+      <div class="page-mopile">
+        <ul class="">
+        <li><a class="" href="Home.html">الصفحة الرئسية</a></li>
+      <li><a class="" href="#" id="ratecoustmer">اراء العملاء</a></li>
+      <li> <a class="" href="#" id="problem" >المقترحات والشكاوي</a></li>
+      <li> <a class="" href="page.html">رفع التقرير اليومية</a></li>
+      <li> <a class="" href="page2.html"> وقت العمل</a></li>
+      <li><a class="" href="work.html">من يعمل الان</a></li>
+      <li><a class="" href="team.html">فريق العمل</a></li>
+      </ul>
+      </div>
+      <div class="search text-center" dir="rtl">
+        <input type="search" placeholder="بحث"  >
+      </div>
+    </div>
+  </div>
+  <div class="logo-nav-mopile">
+    <img src="imgs/Logo-.png" class="img-fluid" alt="">
+  </div>
+  </div>  
+
+<!-- navbar-mopile-->
+
+    <section class="team my-5 cairo-uniquifier " id="team">
+        <div class="container">
+            <div class="row work_now justify-content-center">
+                <h2 class="text-center">من يعمل الان</h2>
+                <br>
+                <div class="col-lg-4">
+                    <div class="now text-center border-1 border-end border-dark pe-3">
+                        <h4>انهي العمل</h4>
+                        <ul>
+                            <li class="text-end"> Eng <span>1</span> </li>
+                            <li class="text-end"> Eng <span>2</span> </li>
+                            <li class="text-end"> Eng <span>3</span> </li>
+                            <li class="text-end"> Eng <span>4</span> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="now text-center  border-1 border-end border-dark pe-3">
+                        <h4>استراحة الان</h4>
+                        <ul>
+                            <li class="text-end"> Eng <span>1</span> </li>
+                            <li class="text-end"> Eng <span>2</span> </li>
+                            <li class="text-end"> Eng <span>3</span> </li>
+                            <li class="text-end"> Eng <span>4</span> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="now text-center">
+                        <h4>يعمل الان</h4>
+                        <ul>
+                            <li class="text-end"> Eng <span>1</span> </li>
+                            <li class="text-end"> Eng <span>2</span> </li>
+                            <li class="text-end"> Eng <span>3</span> </li>
+                            <li class="text-end"> Eng <span>4</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--footer-->
+<div class="start-footer mt-5 cairo-uniquifier ">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-lg-start" dir="">
+          <div class="social-footer mt-3 mb-3">
+             <h6 class="mt-3 m-5 text-center">التواصل عبر مواقع التواصل الاجتماعي</h6>
+             <div class="icon-footer text-center">
+             <a href=""><i class="fa-brands fa-facebook" ></i></a>
+             <a href=""><i class="fa-brands fa-instagram" ></i></a>
+             <a href=""><i class="fa-brands fa-linkedin" ></i></a>
+             <a href=""><i class="fa-brands fa-whatsapp" ></i></a>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6 text-end">
+        <div class="title-footer mt-3 mb-3">
+          <h6 class="mt-2 mb-2" >:نبذة عن شركة رؤية</h6>
+          <p class="mt-3 mb-4 text-light">نحن فريق من المبرمجين و المطورين <br> والمصمين جمعتنا الخبرة والكفاءة والإبداع في مجال البرمجة والتصميم <br> وتقديم اعمالنا بشكل مختلف.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+
+      <!--bootstrap-file.js-->
+      <script src="js/bootstrap.min.js"></script>
+      <!--bootstrap-file.js-->
+      <script src="js/main.js"></script>
+      <!--fontawesome-file.js-->
+      <script src="js/all.min.js"></script>
+      <script src="js/brands.min.js"></script>
+      <script src="js/solid.min.js"></script>
+      <!--fontawesome-file.js-->
+  
+      <!--script file-->
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cairo-uniquifier {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+  }
+
+.title{
+    background-color: #3944AB;
+}
+.title h2{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 0;
+}
+.file, .title-file p{
+    background-color: #dadada;
+    color: black;
+    border: 1px solid black;
+}
+.title-file p{
+    text-align: center;
+    padding: 20px 0;
+}
+.file{
+    margin: 20px 0;
+}
+.file p{
+    margin: 0;
+    text-align: center;
+}
+.add{
+    background-color: #3944AB;
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+    border: #3944AB;
+}
+.add i{
+    background-color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 10px;
+    color: black;
+    vertical-align: middle;
+}
+#team {
+    padding-top: 50px;
+}
+#lightBox{
+    background-color: rgba(0, 0, 0, 0.541);
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#containerForm{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+#containerForm span i{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    padding: 13px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+#containerForm span i:hover{
+    background-color: rgba(128, 128, 128, 0.553);
+    cursor: pointer;
+}
+.work_now{
+    background-color: rgba(181, 181, 181, 0.776);
+}
+.now h4{
+    background-color: #283287;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+.now li{
+    color: white;
+}
+.now li span{
+    background-color: #283287;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px 18px;
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+}

@@ -1,0 +1,18 @@
+@import url(./font.css);
+body{
+    font-family: "cairo";
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    font-size: 28px;
+}
+p, article, button, span, li{
+    font-weight: 300;
+    font-size: 22px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

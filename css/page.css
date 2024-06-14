@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*google font*/
+.cairo-uniquifier {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+  }
+
+/*google font*/
+body{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+/*txt*/
+
+.txt {
+    background-color: rgba(0, 50, 135,1);
+
+}
+.ta3lemat {
+    display: flex;
+    justify-content: space-between;
+}
+/*txt*/
+
+/*<!--three-text_and_titles-->*/
+
+.three-text_and_titles{
+    background: rgba(217 , 217 , 217 , 1);
+    min-height: 70vh;
+
+}
+.maham {
+    background-color: #fff;
+    width: 50%;
+    margin: 50px auto;
+    min-height: 50vh;
+}
+@media (min-width:320px) and (max-width:991px){
+    .maham{
+        width: 100%;
+    }
+}
+.maham span {
+   margin: 10px;
+   padding: 0;
+    line-height: 30px;
+}
+
+.team button {
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+.btn-1 {
+  padding-bottom: 15px;
+}
+.btn-1 a {
+    color: #fff;
+    background-color: rgba(0, 50, 135,1);
+    padding: 8px 70px;
+    text-decoration: none;
+    border-radius: 23px;
+}
+.btn-2 button {
+    color: #fff;
+    background-color: rgba(0, 50, 135,1);
+    border: 2px solid rgba(0, 50, 135,1);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 23px;
+}
+.btn-2 span {
+    position: relative;
+    top: 0;
+    right: 30px;
+    color: #fff;
+}
+.detils {
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: -20px;
+}
+.name,.job,.team-leader-name {  
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.detils input{
+   border-radius: 20px;
+   border: 2px solid rgba(217 , 217 , 217 , 1);
+    background-color: rgba(217 , 217 , 217 , 1);
+    width: 50%;
+}
+.detils input:focus {
+    border: 2px solid rgba(217 , 217 , 217 , 1);
+    background-color: rgba(217 , 217 , 217 , 1);
+}
+.name h5 {
+    font-size: 15px;
+}
+.job h5 {
+    font-size: 15px;
+}
+.team-leader-name h5 {
+   font-size: 15px;
+}
+.team {
+    background-color: #fff;
+    padding-top:10px ;
+    margin-top: 30px;
+}
+.team span {
+    color:#fff;
+    font-size: 12px;
+    background-color: rgba(0, 50, 135,1);
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+.inputs-taqrer .cricel {
+    width: 10px;
+    height: 10px;
+    background: rgba(217 , 217 , 217 , 1);
+    border-radius: 50%;
+}
+.inputs-taqrer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs-taqrer input{
+    display: block;
+    outline: none;
+   margin: 22px 0;
+   padding: 10px 20px ;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    transition: all ease-in-out 0.4s ;
+    position: relative;
+
+}
+/*<!--three-text_and_titles-->*/
+
+.modal-backdrop {
+    opacity: 0 !important;
+    z-index: -100 !important;
+}

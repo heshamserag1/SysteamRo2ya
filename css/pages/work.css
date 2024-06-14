@@ -1,0 +1,21 @@
+.work_now{
+    background-color: rgba(181, 181, 181, 0.776);
+}
+.now h4{
+    background-color: #283287;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+.now li{
+    color: white;
+}
+.now li span{
+    background-color: #283287;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px 18px;
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+}
